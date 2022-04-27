@@ -29,7 +29,7 @@ class CAPA(ServiceBase):
         try:
             # Ruleset downloaded from https://github.com/fireeye/capa-rules/tree/v3.0.2
             rules_path = capa.main.get_rules(
-                os.path.join(os.path.dirname(__file__), "capa-rules-3.0.2"),
+                os.path.join(os.path.dirname(__file__), "capa-rules-3.2.0"),
                 disable_progress=True,
             )
             self.rules = capa.rules.RuleSet(rules_path)
