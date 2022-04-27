@@ -3,7 +3,7 @@ version: 4.2.0.stable2
 description: >-
   This service uses the CAPA open source library to identify what the program at hand could do.
 
-accepts: executable/windows
+accepts: executable/.*
 rejects: empty|metadata/.*
 
 stage: CORE
