@@ -1,4 +1,4 @@
-name: CAPA3
+name: CAPA2
 version: 4.2.0.stable3
 description: >-
   This service uses the CAPA open source library to identify what the program at hand could do.
